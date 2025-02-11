@@ -106,7 +106,7 @@ body {overflow-x: hidden; line-height: 1.5; font-size: 1.6rem; color: #000;   fo
 .about h2 {padding-top: 90px; padding-left: 90px; background: url(../images/paint.png) no-repeat; height: 261px; color: #fff; font-size: 4.5rem;}
 .about .about_img {padding-top: 30px;}
 .about .about_txt {padding:50px 0; font-family: 'Pretendard-Regular';}
-.about .about_box { width: 1516px; height: 638px; border: solid 5px #7E484A; display: flex; gap: 90px;}
+.about .about_box {margin-top: 100px; width: 1516px; height: 638px; border: solid 5px #7E484A; display: flex; gap: 90px;}
 .about .about_txt h3 {font-size: 2rem;  font-weight: 300; }
 .about .about_txt .bubble  {width: 201px; height: 37px; border: solid 1px #7E484A; border-radius: 50px;}
 .about .about_txt h4 {padding : 15px 0; font-size: 2rem;  font-weight: 300;}
