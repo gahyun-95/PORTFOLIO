@@ -1,0 +1,135 @@
+@charset "utf-8" ;
+
+body {overflow-x: hidden; line-height: 1.5; font-size: 1.6rem; color: #000;   font-family: "Rock Salt", serif;}
+
+.inner {width: 1600px; margin: 0 auto;}
+
+/* header */
+#header {position: absolute; top: 0; left: 0; z-index: 9;}
+#header .inner .gnb {padding-top: 80px; display: flex; gap: 120px; justify-content: flex-end;}
+#header .inner .gnb li a {font-size: 3rem;}
+
+#header .inner .gnb li:hover a {color: #9C0500;}
+
+/* mv */
+.mv {position: relative; background: url('../images/bg.png') no-repeat center center / cover; height: 1116px;}
+.mv h1 {color: #9C0500; font-size: 15rem; text-align: left; padding-top: 240px; padding-left: 280px; line-height: 1.9;}
+.mv h3 {font-size: 4rem; text-align: right; padding-right: 100px;}
+
+
+/* web */
+.web {padding: 150px 0;}
+.web h2 {padding-top: 90px; padding-left: 70px; background: url(../images/paint.png) no-repeat; height: 261px; color: #fff; font-size: 4.5rem;}
+
+.web .project {padding-top: 50px; display: flex; text-align: center; gap: 180px;}
+.web .project1 {position: relative; width: 720px; height: 880px; background-color: rgba(83, 11, 14, 0.75) ; }
+.web .project1 img { display: inline-block; padding-top: 20px;}
+.web .project1 p{ color: #fff; font-size: 3.5rem; padding-top: 50px;}
+
+
+.web .project1 .hover_box {opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(0,0,0,0.7); left: 0; top: 0;}
+.web .project1 .hover_box p{padding: 330px 0 20px;  text-align: center; font-size: 2rem; font-family: 'Pretendard-Regular'; font-weight: 300; }
+.web .project1 .hover_box button {margin-right: 5px; background: transparent; width: 182px; height: 54px; border: 1px solid #fff;}
+
+.web .project1 .hover_box button:hover {background-color: hsl(0, 0%, 100%);}
+.web .project1 .hover_box button:hover a {color: #000;}
+
+.web .project1:hover .hover_box {transition: all 0.5s; opacity: 1;}
+.web .project1 .hover_box button a{color: #fff; display: inline-block; text-align: center; font-size: 1.8rem; font-family: 'Pretendard-Regular'; font-weight: 300; }
+
+
+
+.web .project2 {position: relative; width: 720px; height: 880px; background-color: rgba(83, 11, 14, 0.75) ; }
+.web .project2 img { display: inline-block; padding-top: 20px;}
+.web .project2 p{ color: #fff; font-size: 3.5rem; padding-top: 50px;}
+
+
+.web .project2 .hover_box {opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(0,0,0,0.7); left: 0; top: 0;}
+.web .project2 .hover_box p{padding: 330px 0 20px;  text-align: center; font-size: 2rem; font-family: 'Pretendard-Regular'; }
+.web .project2 .hover_box button {margin-right: 5px; background: transparent; width: 182px; height: 54px; border: 1px solid #fff;}
+
+.web .project2 .hover_box button:hover {background-color:#fff;}
+.web .project2 .hover_box button:hover a {color: #000;}
+
+.web .project2:hover .hover_box {transition: all 0.5s; opacity: 1;}
+
+.web .project2 .hover_box button a{color: #fff; display: inline-block; text-align: center; font-size: 1.8rem; font-family: 'Pretendard-Regular'; font-weight: 300; }
+
+
+
+
+
+
+
+
+
+/* graphic */
+.graphic {padding: 150px 0;}
+.graphic .graphicdesign {padding-top: 50px; display: flex; justify-content: center; text-align: center; gap: 180px;}
+.graphic h2 {padding-top: 90px; padding-left: 70px; background: url(../images/paint.png) no-repeat; height: 261px; color: #fff; font-size: 4.5rem;}
+
+
+
+.graphic .graphic1 {position: relative; width: 600px; height: 600px;}
+.graphic .graphic1 img { display: inline-block; }
+.graphic .graphic1 p { font-size: 3.5rem; padding-top: 50px;}
+
+.graphic .graphic1 .hover_box {opacity: 0; position: absolute; width: 100%; height: 100%; left: 0; top: 0; background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/woo_hover.png') no-repeat center; } 
+
+.graphic .graphic1:hover .hover_box {transition: all 0.5s; opacity: 1;}
+.graphic .graphic1 .hover_box p{padding: 220px 0 20px;  text-align: center; font-size: 2rem; font-family: 'Pretendard-Regular'; color: #fff;}
+.graphic .graphic1 .hover_box button {margin-right: 5px; background: transparent; width: 182px; height: 54px; border: 1px solid #fff;}
+.graphic .graphic1 .hover_box button a {color: #fff; display: inline-block; text-align: center; font-size: 1.8rem; font-family: 'Pretendard-Regular'; font-weight: 300;}
+
+.graphic .graphic1 .hover_box button:hover {background-color:#fff;}
+.graphic .graphic1 .hover_box button:hover a {color: #000;}
+
+
+.graphic .graphic2 {position: relative; width: 600px; height: 600px;}
+.graphic .graphic2 img {display: inline-block; }
+.graphic .graphic2 p { font-size: 3.5rem; padding-top: 50px;}
+
+.graphic .graphic2 .hover_box {opacity: 0; position: absolute; width: 100%; height: 100%; left: 0; top: 0; background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/salt.png') no-repeat center; } 
+
+.graphic .graphic2:hover .hover_box {transition: all 0.5s; opacity: 1;}
+.graphic .graphic2 .hover_box p{padding: 230px 0 20px;  text-align: center; font-size: 2rem; font-family: 'Pretendard-Regular'; color: #fff;}
+.graphic .graphic2 .hover_box button {margin-right: 5px; background: transparent; width: 182px; height: 54px; border: 1px solid #fff;}
+.graphic .graphic2 .hover_box button a {color: #fff; display: inline-block; text-align: center; font-size: 1.8rem; font-family: 'Pretendard-Regular'; font-weight: 300;}
+
+.graphic .graphic2 .hover_box button:hover {background-color:#fff;}
+.graphic .graphic2 .hover_box button:hover a {color: #000;}
+
+
+
+/* about */
+.about {padding: 200px 0;}
+.about h2 {padding-top: 90px; padding-left: 90px; background: url(../images/paint.png) no-repeat; height: 261px; color: #fff; font-size: 4.5rem;}
+.about .about_img {padding-top: 30px;}
+.about .about_txt {padding:50px 0; font-family: 'Pretendard-Regular';}
+.about .about_box { width: 1516px; height: 638px; border: solid 5px #7E484A; display: flex; gap: 90px;}
+.about .about_txt h3 {font-size: 2rem;  font-weight: 300; }
+.about .about_txt .bubble  {width: 201px; height: 37px; border: solid 1px #7E484A; border-radius: 50px;}
+.about .about_txt h4 {padding : 15px 0; font-size: 2rem;  font-weight: 300;}
+.about .about_txt .bubble p {padding-left: 13px; padding-top: 5px;}
+.about .about_txt .complete_bubble {display: flex; gap: 10px;}
+.about .about_txt .bubble2 {width:480px; height: 37px; border: solid 1px #7E484A; border-radius: 50px;}
+.about .about_txt .bubble2 p {padding-left: 13px; padding-top: 5px;}
+.about .about_txt .bubble3 {width: 152px; height: 37px; border: solid 1px #7E484A; border-radius: 50px;}
+.about .about_txt .bubble3 p {padding-left: 13px; padding-top: 5px;}
+.about .about_txt ul {display: grid;
+  grid-template-columns: repeat(4, 120px); gap: 10px;}
+.about .about_txt ul li {width: 110px; height: 37px; border: solid 1px #7E484A; border-radius: 50px;
+  padding-left: 13px; padding-top: 5px;}
+  .about .about_txt .skill {display: grid; grid-template-columns: repeat(5, 120px); gap: 10px;}
+
+
+
+
+
+
+
+
+/* footer */
+#footer {margin-top: 200px; background: url('../images/footerbg.png') no-repeat center center / cover; height: 301px;}
+#footer p {font-size: 1.6rem; text-align: center; font-family: 'Pretendard-Regular'; padding-top: 85px;} 
+#footer h3 {font-size: 2rem; text-align: right; padding-right: 100px; padding-top: 30px;}
